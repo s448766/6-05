@@ -35,7 +35,10 @@ enterButton.y = 1000
 enterButton.id = "Enter Button"
 
 function onEnterClicked( event )
-	-- figures out if, based on age and day, what the user must do that day
+	
+	-- This is where they can figure out if they go to school or work.
+	
+
 	day = dayTextField.text
 	age = tonumber(ageTextField.text)
 
